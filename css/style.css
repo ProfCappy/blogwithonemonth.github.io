@@ -1,0 +1,113 @@
+/* 
+Project Name: Monthly Resolutions
+Client: One Month
+Author: Christopher Castig | @castig
+*/
+
+
+/*----------------------------------------------------------------------------- 
+01=BASE   
+-----------------------------------------------------------------------------*/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+.clear {
+	clear: both;
+}
+
+body {
+ background: url('../images/notebook.png'); /* add a fallback color of #d6d6d6 */
+ color: #000000;
+ font-family: 'Lato', sans-serif;
+ line-height: 1.7; /* line-height is unit-less */
+ font-size: 100%;
+}  
+
+.alignleft {
+     float: left;
+     margin: 0px 15px 15px 0px;
+}
+
+.alignright {
+     float: right;
+     margin: 0px 0px 15px 15px;
+}
+/*----------------------------------------------------------------------------- 
+02=LAYOUT  
+-----------------------------------------------------------------------------*/
+#container {
+     width: 1060px;
+     margin: 0px auto 0px auto;
+
+}
+
+#header {
+     padding: 50px;
+
+}
+
+#main {
+     background: ghostwhite;
+     padding: 50px;
+     width: 700px;
+     float: left;
+     margin: 15px;
+}
+
+#footer {
+     padding: 50px;
+
+}
+
+#sidebar {
+     background: ghostwhite;
+     width: 300px;
+     float: left;   
+     padding: 30px;
+     border-bottom-right-radius: 50px; 
+     border-top-left-radius: 50px;
+     margin-top: 15px;
+
+}
+/*----------------------------------------------------------------------------- 
+03=MAIN  
+-----------------------------------------------------------------------------*/
+.color1 {
+     color: #C6C6C6;
+     text-shadow: 0 1px 0;
+}
+
+.linkcolor {
+     color: #FF7F50;
+     text-decoration: none;
+}
+
+.circlepic {
+  border-radius: 50%;
+}
+
+.line {
+     border-left: 5px solid #AAAAAA;
+     width: 300px;
+     height: 100px;
+}
+
+h1 {
+     font-family: 'Raleway';
+     font-size: 3rem;
+}
+
+h2 {
+     font-family: 'Dancing Script';
+}
+
+h3 {
+     font-family: "Josefin Sans";
+     font-size: 1.5rem;
+}
+            
